@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+	body {
+    text-align: center;
+    color: #020b1a;
+    background-color: #f4f7c1;
+    font: caption;
+    font-weight: bold;
+}
+    button {
+    text-align: center;
+    color: #020b1a;
+    background-color: #dfe2eb;
+    font: caption;
+}
+
+        </style>
+</head>
+<body>
+    <h2>Hello, I'm a smart review rater. Please write a review</h2>
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">rate</button>
+</form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    {{rating}}
+    <br>
+    {{status}}
+</body>
+</html>

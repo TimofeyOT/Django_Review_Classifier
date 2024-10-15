@@ -1,0 +1,16 @@
+asgiref==3.8.1
+click==8.1.7
+Django==4.2.16
+gensim==4.3.3
+joblib==1.4.2
+nltk==3.9.1
+numpy==1.26.4
+regex==2024.9.11
+scikit-learn==1.5.2
+scipy==1.13.1
+smart-open==7.0.5
+sqlparse==0.5.1
+threadpoolctl==3.5.0
+tqdm==4.66.5
+typing_extensions==4.12.2
+wrapt==1.16.0
